@@ -4,9 +4,9 @@ Una aplicació Android desenvolupada amb **Kotlin** i **Jetpack Compose** per a 
 
 ---
 
-## 📱 Exemples de la Interfície d'Usuari (UI)
+## 🎨 Visualització de la Interfície (UI)
 
-A continuació es mostren els dos estils de la UI desenvolupats en el projecte:
+Comparativa visual entre les dues fases de desenvolupament del projecte:
 
 | Interfície Bàsica (Material 3) | Interfície Fit-Tech Pro |
 | :---: | :---: |
@@ -15,18 +15,19 @@ A continuació es mostren els dos estils de la UI desenvolupats en el projecte:
 
 ---
 
-## 🌿 Branques del Projecte (Branches)
+## 📌 Organització del Codi (Git Flow)
 
-El repositori està organitzat en dues branques principals per reflectir les fases del desenvolupament:
+El desenvolupament de l'aplicació s'ha dividit en dues branques de treball:
 
-* **`main` / `master`**: Conté la versió inicial i funcional de la calculadora d'IMC amb els components bàsics de Jetpack Compose.
-* **`ui`**: Branca on s'han desenvolupat les millores de disseny visual, integrant la paleta de colors Neó/Glassmorphism, animacions de nivell i el redisseny complet de la interfície.
+- **`main`**: Conté la lògica de negoci base, la gestió d'estats primària i la validació de formularis.
+- **`ui`**: Agrupa les millores estètiques avançades, la paleta de colors personalitzada (Glassmorphism), els indicadors animats i els components estilitzats.
 
 ---
 
-## 🛠️ Tecnologies Utilitzades
+## ⚙️ Especificacions Tècniques
 
-* **Llenguatge:** Kotlin
-* **Framework UI:** Jetpack Compose (Material 3, State Management, Custom Shapes & Styling)
-* **Animacions:** Animated Content & Smooth Progress Bars (`animateFloatAsState`)
-* **IDE:** Android Studio & Gradle
+- **Llenguatge de programació:** Kotlin
+- **Interfície d'usuari:** Jetpack Compose (Material 3)
+- **Gestió d'estat:** `remember`, `mutableStateOf`, `animateFloatAsState`
+- **Entorn de desenvolupament:** Android Studio
+- **Mínim SDK suportat:** API 24 (Android 7.0)
